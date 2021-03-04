@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Sora, sans-serif;
+    list-style: none;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(255,74,78);
+    background: linear-gradient(-90deg, rgba(255,74,78,1) 0%, rgba(255,91,124,1) 100%);
+}
+
+
+.todo{
+    background-color: #fff;
+    border-radius: 8px;
+    width: 500px;
+    height: 650px;
+}
+
+.todo h1{
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+
+.todo-app{
+    width: 500px;
+    text-align: center;
+}
+
+
+.todo-app input:nth-child(1){
+    height: 45px;
+    width: 380px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 2px solid rgba(128, 128, 128, 0.288);
+}
+
+
+.todo-app input:nth-child(1):focus{
+    outline: 0;
+}
+
+.todo-app input:nth-child(2) {
+    cursor: pointer;
+    outline: 0;
+
+    background-color: #2dcb70;
+    border: 0px;
+    padding: 16.2px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: 5px;
+    transition: 350ms;
+}
+
+.todo-app input:nth-child(2):hover {
+    background-color: #00f566;
+
+}
+
+/* SECTION 2 */
+
+.todo-task {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 25px;
+    line-height: 80px;
+}
+
+.todo-task button {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #ff4c54;
+    border: 0px;
+    border-radius: 5px;
+    color: whitesmoke;
+    margin-left: 10px;
+    outline: 0;
+    transition: 350ms;
+}
+
+.todo-task button:hover {
+    background-color: #ff000d;
+}
+
+input[type="checkbox"] {
+    margin-left: 10px;
+}
+
+.checked{
+    text-decoration: line-through;
+}
+
+
